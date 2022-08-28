@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    int t;
+
+    for(int t1 =1; t1 <=3; t1++)
+    {
+        scanf("%d", &t);
+        if(t == 41){
+            printf("Senior division\n");
+        }
+        else if(t == 45){
+            printf("Junior division\n");
+        }
+        else{
+            printf("Out of the division\n");
+        }
+    }
+    return 0;
+}
